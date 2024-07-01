@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+:root {
+    --color-primaria: transparent;
+    --color-secundaria: #22D4FD;
+    --color-terciaria: #22D4FD;
+    --color-hover: #272727;
+
+    --fuente-krona: 'Krona One', sans-serif;
+    --fuente-montserrat: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+
+body{
+    box-sizing: border-box;
+    background: #14758B;
+}
+  
+
+.header{
+    width: 1%;
+    height: 8vh;
+    padding: 1% 0% 0% 3%;
+}
+
+
+.presentacion__imagen{
+    width: 2rem;
+    height: 2rem;
+    margin: 0%;
+    background: #14758B;
+}
+
+.traducccion__imagen {
+    width: 40%;
+    height: 70%;
+    background: #14758B;
+    border-radius: 2rem;
+    display: block; /* Cambia a display block */
+    margin: auto; /* Centra horizontalmente */
+}
+
+
+.traducccion__informacion{
+    width: 100%;
+    height: 50%;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+    
+}
+
+
+.traducccion__informacion__dos{
+    width: 100%;
+    height: 50%;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+
+}
+
+
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none; /* Elimina el contorno */
+}
+
+
+::placeholder {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font: bold;
+    font-size: 1.2em;
+}
+
+
+.ingreso__traduccion__texto {
+    
+    display: flex;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: black;
+    width: 97%;
+    height: 100%; /* Altura fija del textarea */
+    border-radius: 0.5rem;
+    resize: none; /* Evita que el usuario cambie el tamaño */
+    font-size: 1rem; /* Tamaño de fuente (ajusta según tus necesidades) */
+    padding: 0.5rem; /* Espaciado interno para el texto */
+    background: #14758B;
+    color: white;
+  }
+
+
+
+  .resultado__traduccion__texto {
+    
+    display: flex;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: black;
+    width: 97%;
+    height: 74%; /* Altura fija del textarea */
+    border-radius: 0.5rem;
+    resize: none; /* Evita que el usuario cambie el tamaño */
+    font-size: 1rem; /* Tamaño de fuente (ajusta según tus necesidades) */
+    padding: 0.5rem; /* Espaciado interno para el texto */
+    background: white;
+    color: #14758B;
+  }
+
+
+
+
+
+  
+
+  .introduccion__traduccion__texto {
+    
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    width: 95%;
+    border-radius: 1.5rem;
+    height: 33vh;
+    resize: none; /* Evita que el usuario cambie el tamaño */
+    font-size: 1rem; /* Tamaño de fuente (ajusta según tus necesidades) */
+    padding: 0.5rem; /* Espaciado interno para el texto */
+    background: #14758B;
+    color: white;
+    flex-direction: column;
+
+  }
+
+  
+
+
+ 
+
+
+
+
+  
+    .traducccion__boton__resultado{
+
+      
+        font-family: "Inter", sans-serif;
+        color: aliceblue;
+        background-color: #050716;
+        width: 9rem;
+        height: 2rem;
+        border-radius: 2rem;
+        left: 1.8rem;
+        bottom: 49%;
+        margin: 0.5rem;
+        font-size: 0.8rem;
+        border: 1px solid white;
+   
+       }
+
+    .traducccion__boton__encriptar{
+        position: fixed;
+        font-family: "Inter", sans-serif;
+        color: aliceblue;
+        background-color: #050716;
+        width: 8rem;
+        height: 2rem;
+        border-radius: 2rem;
+        right: 0%;
+        bottom: 16%;
+        margin: 0.5rem;
+        font-size: 0.8rem;
+        border: 0.05rem solid white;
+   
+       }
+
+       .traducccion__boton__desencriptar{
+        position: fixed;
+        font-family: "Inter", sans-serif;
+        color: black;
+        background-color: white;
+        width: 8rem;
+        height: 2rem;
+        border-radius: 2rem;
+        right: 0%;
+        bottom: 8%;
+        margin: 0.5rem;
+        font-size: 0.8rem;
+        border: 1px solid black;
+   
+       }
+
+#btnEncriptar:hover,
+#btnEncriptar:focus {
+  background: #00FF00;
+  color: black;
+  transition: background-color .5s ease-out;
+  outline: 0; 
+  border-radius: 2rem;
+
+}
+
+#btnDesencriptar:hover,
+#btnDesencriptar:focus {
+  background: #00FF00;
+  color: black;
+  transition: background-color .5s ease-out;
+  outline: 0; 
+  border-radius: 2rem;
+
+}
+
+
+#btncopiarTexto:hover,
+#btncopiarTexto:focus {
+  background: #00FF00;
+  color: black;
+  transition: background-color .5s ease-out;
+  outline: 0; 
+  border-radius: 2rem;
+
+}
+
+.aviso__importante{
+margin: 0% 0% 0% 0%;
+color: white;
+margin-left: 1.5rem;
+}
+
+
+
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+    padding: 0.5rem 2%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 2rem;
+}
+
+
+
+
+.presentacion__contenido{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.presentacion {
+    padding: 0 5% 0 0%;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+
+
+
+.traduccion__texto__contendedor {
+    
+  
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: black;
+    width: 95%;
+    border-radius: 1.5rem;
+    height: 40vh;
+    resize: none; /* Evita que el usuario cambie el tamaño */
+    font-size: 1rem; /* Tamaño de fuente (ajusta según tus necesidades) */
+    padding: 0.625rem; /* Espaciado interno para el texto */
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+  }
+
+
+
+@media (max-width: 1200px) {
+
+    .header{
+         padding: 10%;  
+    }
+    
+    .presentacion{
+        flex-direction: column-reverse;
+        padding: 5%;
+
+    }
+
+    .presentacion__contenido{
+        width: auto;
+    }
+    
+}
